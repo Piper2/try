@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const parcels = require('./Parcel');
+const parcels = require('../Parcel');
 
 //Get all Order
 router.get('/', (req, res) => res.json(parcels));
